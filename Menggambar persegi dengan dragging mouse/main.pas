@@ -1,8 +1,8 @@
 uses crt, mouse, keyboard;
 
 var 
-    start_x: integer = 3;
-    start_y: integer = 2;
+    start_x : integer = 3;
+    start_y : integer = 2;
     x : integer = 20;
     y : integer = 10;
     event : TMouseEvent;
