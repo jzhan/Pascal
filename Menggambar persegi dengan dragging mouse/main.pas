@@ -8,7 +8,7 @@ var
     event : TMouseEvent;
     key : TKeyEvent;
                                                               // libc.so for Linux
-function Printf(mask : pchar) : integer; cdecl; varargs; external 'msvcrt.dll' name 'printf';
+function printf(mask : pchar) : integer; cdecl; varargs; external 'msvcrt.dll' name 'printf';
 
 procedure draw();
 var 
